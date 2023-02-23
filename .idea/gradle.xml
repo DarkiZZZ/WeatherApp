@@ -14,8 +14,9 @@
             <option value="$PROJECT_DIR$/buildSrc" />
             <option value="$PROJECT_DIR$/core" />
             <option value="$PROJECT_DIR$/weather_api" />
-            <option value="$PROJECT_DIR$/weather_details" />
-            <option value="$PROJECT_DIR$/weather_general" />
+            <option value="$PROJECT_DIR$/weather_day" />
+            <option value="$PROJECT_DIR$/weather_now" />
+            <option value="$PROJECT_DIR$/weather_week" />
           </set>
         </option>
       </GradleProjectSettings>
