@@ -1,4 +1,4 @@
-package ru.msokolov.weatherapp.day
+package ru.msokolov.weatherapp.today
 
 import org.junit.Test
 
