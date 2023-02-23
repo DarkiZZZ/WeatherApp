@@ -3,14 +3,14 @@
 
     <item android:id="@+id/now"
         android:title="@string/now_title"
-        android:icon="@mipmap/ic_now"/>
+        android:icon="@drawable/ic_now"/>
     <item android:id="@+id/today"
         android:title="@string/today_title"
-        android:icon="@mipmap/ic_today"/>
+        android:icon="@drawable/ic_today"/>
     <item android:id="@+id/week"
         android:title="@string/week_title"
-        android:icon="@mipmap/ic_week"/>
+        android:icon="@drawable/ic_week"/>
     <item android:id="@+id/settings"
         android:title="@string/settings_title"
-        android:icon="@mipmap/ic_settings"/>
+        android:icon="@drawable/ic_settings"/>
 </menu>
