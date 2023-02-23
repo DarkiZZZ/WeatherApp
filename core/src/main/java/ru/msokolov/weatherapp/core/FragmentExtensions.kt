@@ -17,3 +17,6 @@ fun Fragment.navigate(actionId: Int, hostId: Int? = null, data: Serializable? = 
 
     navController.navigate(actionId, bundle)
 }
+
+val Fragment.navigationData: Serializable?
+    get() = arguments?.getSerializable("navigation data")
