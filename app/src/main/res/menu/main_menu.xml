@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/now"
+        android:title="@string/now_title"
+        android:icon="@mipmap/ic_now"/>
+    <item android:id="@+id/today"
+        android:title="@string/today_title"
+        android:icon="@mipmap/ic_today"/>
+    <item android:id="@+id/week"
+        android:title="@string/week_title"
+        android:icon="@mipmap/ic_week"/>
+    <item android:id="@+id/settings"
+        android:title="@string/settings_title"
+        android:icon="@mipmap/ic_settings"/>
+</menu>
