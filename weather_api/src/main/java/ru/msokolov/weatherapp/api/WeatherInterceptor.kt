@@ -8,11 +8,11 @@ internal object WeatherInterceptor : Interceptor {
     override fun intercept(chain: Interceptor.Chain): Response {
         val originalRequest = chain.request()
         val builder = originalRequest.newBuilder()
-            .header(API_NAME, API_VALUE)
+            .header(API_KEY_NAME, API_KEY_VALUE)
         val newRequest = builder.build()
         return chain.proceed(newRequest)
     }
 
-    private const val API_NAME = "X-Yandex-API-Key"
-    private const val API_VALUE = "c0cbc9e7-db78-4fef-a5e9-ec62d47dc5f6"
+    private const val API_KEY_NAME = "X-Yandex-API-Key"
+    private const val API_KEY_VALUE = "c0cbc9e7-db78-4fef-a5e9-ec62d47dc5f6"
 }
