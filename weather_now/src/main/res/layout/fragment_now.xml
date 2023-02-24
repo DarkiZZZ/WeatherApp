@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:background="@drawable/afternoon_background"
+    android:background="@drawable/afternoon_background"
     tools:context="ru.msokolov.weatherapp.now.NowFragment">
 
     <ProgressBar
@@ -18,35 +18,47 @@
         app:layout_constraintBottom_toBottomOf="parent"/>
 
     <TextView
-        android:id="@+id/localityDistrictTextView"
+        android:id="@+id/localityTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        style="@style/TextAppearance.WeatherApp.Location"
+        style="@style/TextAppearance.WeatherApp.Location.Bold"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:gravity="center"
-        android:layout_margin="@dimen/small_space"
-        tools:text="Tverskoy district"/>
+        android:layout_margin="@dimen/tiny_space"
+        android:text="Russia, Moscow"/>
+
+    <TextView
+        android:id="@+id/districtTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.WeatherApp.Location.Thin"
+        app:layout_constraintTop_toBottomOf="@id/localityTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center"
+        android:layout_margin="@dimen/tiny_space"
+        android:text="Tverskoy district"/>
 
     <TextView
         android:id="@+id/conditionTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         style="@style/TextAppearance.WeatherApp.SubHeader.Bold"
-        app:layout_constraintTop_toBottomOf="@id/localityDistrictTextView"
+        app:layout_constraintTop_toBottomOf="@id/districtTextView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:gravity="center"
         android:layout_margin="@dimen/large_space"
-        tools:text="Clear"/>
+        android:text="Clear"/>
 
     <ImageView
         android:id="@+id/conditionImageView"
         android:layout_width="@dimen/large_icon_size"
         android:layout_height="@dimen/large_icon_size"
-        android:layout_margin="@dimen/large_space"
-        tools:src="@drawable/day_clear"
+        android:layout_margin="@dimen/tiny_space"
+        android:src="@drawable/day_clear"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/conditionTextView"
@@ -61,8 +73,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:gravity="center"
-        android:layout_margin="@dimen/medium_space"
-        tools:text="11"/>
+        android:layout_margin="@dimen/tiny_space"
+        android:text="11"/>
 
     <LinearLayout
         android:id="@+id/feelsLikeContainer"
@@ -89,7 +101,7 @@
             android:layout_height="wrap_content"
             android:gravity="start"
             style="@style/TextAppearance.WeatherApp.SubHeader.Bold"
-            tools:text="17"/>
+            android:text="17"/>
     </LinearLayout>
 
     <LinearLayout
@@ -100,7 +112,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:gravity="center"
-        android:layout_margin="@dimen/medium_space"
+        android:layout_margin="@dimen/small_space"
         android:orientation="horizontal">
 
         <TextView
@@ -117,7 +129,7 @@
             android:layout_height="wrap_content"
             android:gravity="start"
             style="@style/TextAppearance.WeatherApp.UsualText.Bold"
-            tools:text="9"/>
+            android:text="9"/>
     </LinearLayout>
 
     <LinearLayout
@@ -222,7 +234,6 @@
         android:layout_marginTop="@dimen/tiny_space"
         android:layout_marginStart="@dimen/small_space"
         android:layout_marginEnd="@dimen/small_space"
-        android:layout_marginBottom="@dimen/small_space"
         android:orientation="horizontal">
 
         <ImageView

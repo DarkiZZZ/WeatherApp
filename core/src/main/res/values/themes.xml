@@ -1,7 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     
-    <style name="Base.V23.Theme.WeatherApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Base.V23.Theme.WeatherAppTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
@@ -15,9 +15,13 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <style name="Base.Theme.WeatherApp" parent="Base.V23.Theme.WeatherApp"/>
+    <style name="Base.Theme.WeatherAppTheme" parent="Base.V23.Theme.WeatherAppTheme">
+        <item name="colorPrimaryVariant">@color/light_blue2</item>
+        <item name="colorPrimary">@color/light_blue</item>
+        <item name="android:textAppearance">@style/TextAppearance.WeatherApp.Light</item>
+    </style>
 
-    <style name="Theme.WeatherApp" parent="Base.Theme.WeatherApp">
+    <style name="Theme.WeatherAppTheme" parent="Base.Theme.WeatherAppTheme">
 
     </style>
 </resources>
