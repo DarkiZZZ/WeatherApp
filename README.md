@@ -1,2 +1,3 @@
 # WeatherApp
+This application can help with with monitoring weather forecast. You can see here forecast depends on daytime, day and week weather.
 ### This application is in progress...
