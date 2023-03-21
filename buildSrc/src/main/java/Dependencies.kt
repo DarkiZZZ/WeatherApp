@@ -69,6 +69,11 @@ object Lifecycle {
     const val liveDataKtx = "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycleVersion"
 }
 
+object Kotlin{
+    private const val kotlin_version = "1.7.20"
+    const val kotlinStdLib = "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+}
+
 object Dagger {
     private const val daggerVersion = "2.44"
 
