@@ -14,8 +14,8 @@ dependencyResolutionManagement {
 }
 rootProject.name = "WeatherApp"
 include ':app'
-include ':weather_today'
-include ':core'
-include ':weather_now'
 include ':weather_api'
-include ':weather_week'
+include ':core:dagger'
+include ':feature:now'
+include ':feature:today'
+include ':feature:week'
