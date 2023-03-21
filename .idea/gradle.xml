@@ -15,6 +15,7 @@
             <option value="$PROJECT_DIR$/core" />
             <option value="$PROJECT_DIR$/core/dagger" />
             <option value="$PROJECT_DIR$/feature" />
+            <option value="$PROJECT_DIR$/feature/init-location" />
             <option value="$PROJECT_DIR$/feature/now" />
             <option value="$PROJECT_DIR$/feature/today" />
             <option value="$PROJECT_DIR$/feature/week" />
