@@ -39,9 +39,6 @@ android {
 dependencies {
 
     implementation project(path: ':weather_api')
-    implementation project(path: ':weather_now')
-    implementation project(path: ':weather_today')
-    implementation project(path: ':weather_week')
 
     implementation(AndroidCore.coreKtx)
     implementation(AndroidUi.appCompat)
