@@ -1,4 +1,4 @@
-package ru.msokolov.weatherapp.now
+package ru.msokolov.weatherapp.tomorrow
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
