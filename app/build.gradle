@@ -40,6 +40,7 @@ dependencies {
 
     implementation project(path: ':weather_api')
     implementation project(path: ':core:dagger')
+    implementation project(path: ':core:ui')
 
     implementation(AndroidCore.coreKtx)
     implementation(AndroidUi.appCompat)

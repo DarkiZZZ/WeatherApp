@@ -4,4 +4,8 @@
     <string name="today_title">Today</string>
     <string name="week_title">Week</string>
     <string name="settings_title">Settings</string>
+    <string name="select_indicator_desc">Indicator of selected screen</string>
+    <string name="today_button_text_bottom_nav">TODAY</string>
+    <string name="tomorrow_button_text_bottom_nav">TOMORROW</string>
+    <string name="week_button_text_bottom_nav">WEEK</string>
 </resources>
