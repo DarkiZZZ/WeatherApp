@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearance.WeatherApp.MainText.Poppins" parent="TextAppearance.WeatherApp">
+        <item name="fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="TextAppearance.WeatherApp.BottomNavigation.Text" parent="TextAppearance.WeatherApp.MainText.Poppins">
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textColor">@color/bottom_nav_button_clicked</item>
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

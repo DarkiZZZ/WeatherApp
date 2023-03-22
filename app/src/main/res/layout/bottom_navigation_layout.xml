@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/bottom_navigation_layout_height_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bottom_navigation_background">
+
+    <TextView
+        android:id="@+id/todayTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/tomorrowTextView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textAppearance="@style/TextAppearance.WeatherApp.BottomNavigation.Text"
+        android:gravity="center"
+        android:text="@string/today_button_text_bottom_nav"/>
+
+    <ImageView
+        android:id="@+id/todaySelectIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/todayTextView"
+        app:layout_constraintStart_toStartOf="@id/todayTextView"
+        app:layout_constraintEnd_toEndOf="@id/todayTextView"
+        android:layout_marginTop="@dimen/bottom_navigation_layout_margin_top_indicator"
+        android:src="@drawable/bottom_item_select_indicator"
+        android:contentDescription="@string/select_indicator_desc" />
+
+    <TextView
+        android:id="@+id/tomorrowTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/todayTextView"
+        app:layout_constraintEnd_toEndOf="@id/weekTextView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textAppearance="@style/TextAppearance.WeatherApp.BottomNavigation.Text"
+        android:gravity="center"
+        android:text="@string/tomorrow_button_text_bottom_nav"
+        tools:textColor="@color/bottom_nav_button"/>
+
+    <ImageView
+        android:id="@+id/tomorrowSelectIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tomorrowTextView"
+        app:layout_constraintStart_toStartOf="@id/tomorrowTextView"
+        app:layout_constraintEnd_toEndOf="@id/tomorrowTextView"
+        android:layout_marginTop="@dimen/bottom_navigation_layout_margin_top_indicator"
+        android:src="@drawable/bottom_item_select_indicator"
+        android:contentDescription="@string/select_indicator_desc"
+        tools:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/weekTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/tomorrowTextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textAppearance="@style/TextAppearance.WeatherApp.BottomNavigation.Text"
+        android:gravity="center"
+        android:text="@string/week_button_text_bottom_nav"
+        tools:textColor="@color/bottom_nav_button"/>
+
+    <ImageView
+        android:id="@+id/weekSelectIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/weekTextView"
+        app:layout_constraintStart_toStartOf="@id/weekTextView"
+        app:layout_constraintEnd_toEndOf="@id/weekTextView"
+        android:layout_marginTop="@dimen/bottom_navigation_layout_margin_top_indicator"
+        android:src="@drawable/bottom_item_select_indicator"
+        android:contentDescription="@string/select_indicator_desc"
+        tools:visibility="gone"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
