@@ -21,6 +21,12 @@ object AndroidUi {
     const val cardView = "androidx.cardview:cardview:$cardViewVersion"
 }
 
+object CustomUi {
+    private const val shimmerLibVersion = "0.5.0"
+
+    const val shimmerLib = "com.facebook.shimmer:shimmer:$shimmerLibVersion"
+}
+
 object Navigation {
     private const val navVersion = "2.5.3"
 
