@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="primary_temp_layout_width_parent">322dp</dimen>
+    <dimen name="primary_temp_layout_height_parent">246dp</dimen>
+</resources>

@@ -1,4 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="TextAppearance.WeatherApp" parent="TextAppearance.AppCompat"/>
+
+    <style name="TextAppearance.WeatherApp.MainText.Poppins" parent="TextAppearance.WeatherApp">
+        <item name="fontFamily">@font/poppins</item>
+    </style>
+
+
+    <style name="TextAppearance.WeatherApp.PrimaryTempLayout.WeatherTypeText" parent="TextAppearance.WeatherApp.MainText.Poppins">
+        <item name="android:textSize">12.5sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextAppearance.WeatherApp.PrimaryTempLayout.WeatherTypeText.White" parent="TextAppearance.WeatherApp.PrimaryTempLayout.WeatherTypeText">
+        <item name="android:textColor">#E0E0E0</item>
+    </style>
+    <style name="TextAppearance.WeatherApp.PrimaryTempLayout.WeatherTypeText.Black" parent="TextAppearance.WeatherApp.PrimaryTempLayout.WeatherTypeText">
+        <item name="android:textColor">#2E2E2E</item>
+    </style>
 </resources>
