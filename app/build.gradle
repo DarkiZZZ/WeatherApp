@@ -42,6 +42,8 @@ dependencies {
     implementation project(path: ':core:dagger')
     implementation project(path: ':core:ui')
 
+    implementation project(path: ':feature:today')
+
     implementation(AndroidCore.coreKtx)
     implementation(AndroidUi.appCompat)
     implementation(AndroidUi.material)

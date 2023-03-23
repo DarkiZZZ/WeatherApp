@@ -23,8 +23,10 @@ object AndroidUi {
 
 object CustomUi {
     private const val shimmerLibVersion = "0.5.0"
+    private const val viewBindingLibVersion = "1.5.8"
 
     const val shimmerLib = "com.facebook.shimmer:shimmer:$shimmerLibVersion"
+    const val viewBindingLib = "com.github.kirich1409:viewbindingpropertydelegate-full:$viewBindingLibVersion"
 }
 
 object Navigation {
