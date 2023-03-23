@@ -8,4 +8,5 @@
     <string name="today_button_text_bottom_nav">TODAY</string>
     <string name="tomorrow_button_text_bottom_nav">TOMORROW</string>
     <string name="week_button_text_bottom_nav">WEEK</string>
+    <string name="location_icon_desc">Location icon</string>
 </resources>

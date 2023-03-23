@@ -2,4 +2,13 @@
 <resources>
     <dimen name="bottom_navigation_layout_margin_top_indicator">3dp</dimen>
     <dimen name="bottom_navigation_layout_height_parent">65dp</dimen>
+    <dimen name="app_bar_layout_height_parent">75dp</dimen>
+    <dimen name="app_bar_layout_width_location_ic">12dp</dimen>
+    <dimen name="app_bar_layout_height_location_ic">12dp</dimen>
+    <dimen name="app_bar_layout_margin_start_location_text">20dp</dimen>
+    <dimen name="app_bar_layout_margin_top_location_ic">4dp</dimen>
+    <dimen name="app_bar_layout_height_location_text">41dp</dimen>
+    <dimen name="app_bar_layout_width_settings_ic">40dp</dimen>
+    <dimen name="app_bar_layout_height_settings_ic">40dp</dimen>
+    <dimen name="app_bar_layout_margin_end_settings_ic">20dp</dimen>
 </resources>
