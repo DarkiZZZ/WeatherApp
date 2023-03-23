@@ -2,4 +2,8 @@
 <resources>
     <dimen name="primary_temp_layout_width_parent">322dp</dimen>
     <dimen name="primary_temp_layout_height_parent">246dp</dimen>
+    <dimen name="primary_temp_layout_width_icon">180dp</dimen>
+    <dimen name="primary_temp_layout_height_icon">180dp</dimen>
+    <dimen name="primary_temp_layout_margin_top_weather_type_text">23dp</dimen>
+    <dimen name="primary_temp_layout_height">336dp</dimen>
 </resources>
