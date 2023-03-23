@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/primary_temp_layout_width_parent"
+    android:layout_height="@dimen/primary_temp_layout_height"
+    android:background="@drawable/text_rounded_shimmer"/>
