@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_background_color">#2E2E2E</color>
+
+
+    <color name="shimmer_background_color">#66666666</color>
+    <color name="primary_temp_morning_bg_start_color">#DD94F7</color>
+    <color name="primary_temp_morning_bg_end_color">#4B50C0</color>
+    <color name="primary_temp_noon_bg_start_color">#FFE600</color>
+    <color name="primary_temp_noon_bg_end_color">#F09000</color>
+    <color name="primary_temp_night_bg_start_color">#260033</color>
+    <color name="primary_temp_night_bg_end_color">#000000</color>
+    <color name="primary_temp_evening_bg_start_color">#874BF3</color>
+    <color name="primary_temp_evening_bg_end_color">#310041</color>
+</resources>

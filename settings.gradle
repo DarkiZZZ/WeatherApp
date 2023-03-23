@@ -16,7 +16,7 @@ rootProject.name = "WeatherApp"
 include ':app'
 include ':weather_api'
 include ':core:dagger'
-include ':feature:now'
+include ':feature:tomorrow'
 include ':feature:today'
 include ':feature:week'
 include ':feature:init-location'
