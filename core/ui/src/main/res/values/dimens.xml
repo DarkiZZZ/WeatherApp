@@ -6,4 +6,11 @@
     <dimen name="primary_temp_layout_height_icon">180dp</dimen>
     <dimen name="primary_temp_layout_margin_top_weather_type_text">23dp</dimen>
     <dimen name="primary_temp_layout_height">336dp</dimen>
+    <dimen name="hour_forecast_item_width_parent">54dp</dimen>
+    <dimen name="hour_forecast_item_height_parent">104dp</dimen>
+    <dimen name="hour_forecast_item_margin_start_parent">7dp</dimen>
+    <dimen name="hour_forecast_item_margin_end_parent">7dp</dimen>
+    <dimen name="hour_forecast_item_margin_top_time_text">11dp</dimen>
+    <dimen name="hour_forecast_item_width_weather_icon">45dp</dimen>
+    <dimen name="hour_forecast_item_height_weather_icon">45dp</dimen>
 </resources>
